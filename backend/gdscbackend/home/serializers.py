@@ -12,7 +12,7 @@ class UserSerializer(serializers.ModelSerializer):
 # event
 class eventImageSerializer(serializers.ModelSerializer):
     class Meta:
-        model = eventImages
+        model = eventImage
         fields = ["image"]
 
 class eventSerializer(serializers.ModelSerializer):
@@ -43,4 +43,4 @@ class memberSerializer(serializers.ModelSerializer):
 class blogSerializer(serializers.ModelSerializer):
     class Meta:
         model = blog
-        fields = ["title", "date", "description"]
+        fields = "__all__"

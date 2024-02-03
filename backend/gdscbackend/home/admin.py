@@ -4,7 +4,7 @@ from .models import *
 
 # events
 class eventImagesInline(admin.TabularInline):
-    model = eventImages
+    model = eventImage
     extra = 1
 
 @admin.register(event)

@@ -13,10 +13,11 @@ class event(models.Model):
     def __str__(self):
         return self.name
 
-class eventImages(models.Model):
+class eventImage(models.Model):
     image = models.URLField()
     event_id = models.ForeignKey(event,related_name='eventImages', on_delete = models.DO_NOTHING, null = True)
-
+    def __str__(self):
+        return ""
 # members
 class member(models.Model):
 
