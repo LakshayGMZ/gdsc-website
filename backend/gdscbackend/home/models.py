@@ -44,6 +44,7 @@ class memberProfile(models.Model):
         Medium = "Medium", "Medium"
         Twitter = "Twitter", "Twitter"
         Instagram = "Instagram", "Instagram"
+        Portfolio = "Portfolio", "Portfolio"
     member_id = models.ForeignKey(member,related_name='profiles', on_delete = models.CASCADE, null = True)
     profileType = models.CharField(choices = profileChoices.choices, default = "Profile", max_length = 1500)
     profileUrl = models.URLField(max_length = 200)
