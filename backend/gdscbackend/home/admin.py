@@ -10,6 +10,7 @@ class eventImagesInline(admin.TabularInline):
 @admin.register(event)
 class eventAdmin(admin.ModelAdmin):
     inlines = [eventImagesInline]
+    list_display = ('name', 'date')
 
 # profiles
 class memberProfilesInline(admin.TabularInline):
@@ -19,5 +20,10 @@ class memberProfilesInline(admin.TabularInline):
 @admin.register(member)
 class memberAdmin(admin.ModelAdmin):
     inlines = [memberProfilesInline]
+    list_display = ('name', 'memberType')
 
-admin.site.register(blog)
+# blog
+    
+@admin.register(blog)
+class blogAdmin(admin.ModelAdmin):
+    list_display = ('title', 'author', 'date')
