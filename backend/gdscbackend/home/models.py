@@ -33,6 +33,7 @@ class member(models.Model):
     memberType = models.CharField(choices = memberTypeChoices.choices, max_length = 100, default = memberTypeChoices.team)
     imageUrl = models.URLField(default = "", blank = True)
     branch = models.CharField(max_length = 15000, blank=True)
+    priority = models.IntegerField(default = 0)
     def __str__(self):
         return self.name
 
