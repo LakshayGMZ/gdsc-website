@@ -4,7 +4,7 @@ from rest_framework import viewsets
 
 
 class memberViewSet(viewsets.ModelViewSet):
-    queryset = models.member.objects.all().order_by("-priority").values()
+    queryset = models.member.objects.all()
     serializer_class = memberSerializer
 
 class eventViewSet(viewsets.ModelViewSet):
