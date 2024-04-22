@@ -1,0 +1,58 @@
+.resource-wpr {
+  background-image: url("/domains/domainsbackground.png");
+  background-size: cover;
+}
+
+.resourcebody {
+  padding: 50px 5vw;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.resourceheading {
+  font-weight: normal;
+  text-align: center;
+  font-size: 80px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.card-effect {
+  background-image: url("/team/Effect-3.png");
+  align-items: center;
+  justify-content: center;
+}
+
+.red {
+  background-color: red;
+  width: 18rem;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  text-align: center;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 18rem;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  text-align: center;
+}
+
+.blue {
+  background-color: #007fff;
+  width: 18rem;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  text-align: center;
+}
+
+.card-img-top {
+  object-fit: contain;
+  width: 17rem;
+  margin-bottom: 10px;
+}
+
+h2.card-heading-one {
+  padding-top: 10px;
+}

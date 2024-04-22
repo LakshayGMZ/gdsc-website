@@ -57,7 +57,7 @@ export default function Hero() {
           </div>
           <div className="hero-para">
             <p>
-              Through GSDC-ADGITM we, Developers and Designers want to foster a
+              Through GSDC-ADGIPS We, developers and designers want to foster a
               healthy development culture. Developer Student Clubs is a program
               that will help students to learn mobile and web development,
               design thinking and leadership skills.

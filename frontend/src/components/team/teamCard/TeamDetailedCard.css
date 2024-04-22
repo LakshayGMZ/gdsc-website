@@ -1,0 +1,74 @@
+.profile {
+    height: fit-content;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.MuiDialog-container .MuiPaper-root[role="dialog"] {
+    border-radius: 20px !important;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.MuiDialog-container .MuiPaper-root[role="dialog"]::-webkit-scrollbar {
+    display: none;
+}
+
+.profileImagesContainer {
+    position: relative;
+}
+
+.profileImagesContainer img:first-child {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.mainProfileImageContainer{
+    position: absolute;
+    bottom: 0;
+    left: 1.5rem;
+    background-color: white;
+    padding: 5px;
+    border-radius: 100%;
+
+    transform: translate(0, 50%);
+}
+
+.mainProfileImageContainer img {
+    width: 180px;
+    aspect-ratio: 1;
+    border-radius: 100px !important;
+}
+
+.profileContentContainer {
+    margin-top: 50px;
+    padding: 0 1.5rem;
+    font-size: smaller;
+}
+
+.profileContentContainer p {
+    padding: 1rem;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+}
+
+.profile p {
+    margin: 0;
+}
+
+
+.profileLinksContainer {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.profileLinksContainer > a {
+    text-decoration: none !important;
+    color: black;
+    border-bottom: none;
+    margin: 0 5px;
+}

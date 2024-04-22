@@ -42,41 +42,27 @@
   cursor: pointer;
   background-color: white;
 }
-
-.team-card-img-1 {
-  background-color: #dc4d42;
+.team-card-img {
   background-image: url("/team/Effect-3.png");
   width: 240px;
   height: 180px;
   margin-top: -10px;
   border-radius: 20px 20px 0 0;
+}
+.team-card-img-1 {
+  background-color: #dc4d42;
 }
 
 .team-card-img-2 {
   background-color: #269960;
-  background-image: url("/team/Effect-3.png");
-  width: 240px;
-  height: 180px;
-  margin-top: -10px;
-  border-radius: 20px 20px 0 0;
 }
 
 .team-card-img-3 {
   background-color: #2670eb;
-  background-image: url("/team/Effect-3.png");
-  width: 240px;
-  height: 180px;
-  margin-top: -10px;
-  border-radius: 20px 20px 0 0;
 }
 
 .team-card-img-4 {
   background-color: #ffb426;
-  background-image: url("/team/Effect-3.png");
-  width: 240px;
-  height: 180px;
-  margin-top: -10px;
-  border-radius: 20px 20px 0 0;
 }
 
 .team-card:hover {

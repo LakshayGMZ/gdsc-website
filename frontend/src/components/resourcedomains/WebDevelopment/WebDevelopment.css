@@ -1,0 +1,53 @@
+.webd {
+  position: relative;
+}
+
+.webd > div > h2 {
+  font-weight: 700;
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 150px;
+}
+
+.webd > div > h3 {
+  font-size: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: var(--color-blue);
+}
+
+.webd > div > h2 > span:nth-child(1) {
+  color: var(--color-green);
+}
+
+.webd > div > h2 > span:nth-child(2) {
+  color: var(--color-red);
+}
+
+.webd > div > h2 > span:nth-child(4) {
+  color: var(--color-yellow);
+}
+
+.webd-star {
+  position: absolute;
+  right: 0;
+  width: clamp(80px, 8vw, 200px);
+  z-index: -1;
+  top: 0;
+}
+
+.webd-wpr {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 50px 5vw;
+  font-family: "Inter", sans-serif;
+}
+
+.webd-wpr h2 {
+  color: red;
+}
+
+.webd-wpr h3 {
+  color: green !important;
+}

@@ -1,0 +1,26 @@
+.eventNameSection {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0;
+    background: url(/events/background.png) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.eventNameSection img {
+    max-height: 500px;
+    max-width: 1000px;
+}
+
+.eventDescription {
+    width: 80%;
+    min-height: 200px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}

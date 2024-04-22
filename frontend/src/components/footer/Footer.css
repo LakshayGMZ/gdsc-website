@@ -3,7 +3,7 @@ footer {
   color: white;
 }
 
-footer>div:nth-child(1) {
+footer > div:nth-child(1) {
   max-width: 1400px;
   margin: 0 auto;
   padding: 40px 5vw;
@@ -14,7 +14,7 @@ footer>div:nth-child(1) {
   gap: 10px;
 }
 
-footer>div:nth-child(2) {
+footer > div:nth-child(2) {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,7 +23,7 @@ footer>div:nth-child(2) {
   gap: 10px;
 }
 
-footer>p {
+footer > p {
   text-align: center;
   font-weight: lighter;
   color: #a2a2a4;
@@ -38,7 +38,7 @@ footer>p {
   gap: 5px;
 }
 
-.footer-list>a {
+.footer-list > a {
   text-decoration: none;
   color: white;
 }
@@ -49,6 +49,6 @@ footer>p {
   flex-wrap: wrap;
 }
 
-.footer-icon>a {
+.footer-icon > a {
   color: #a2a2a4;
 }

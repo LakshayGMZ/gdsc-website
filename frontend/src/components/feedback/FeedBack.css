@@ -1,0 +1,269 @@
+.feedback-flex-container {
+  display: flex;
+  padding-bottom: 70px;
+}
+
+.feedbackcontainer {
+  width: 50%;
+  margin-left: 90px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.feedbackheading {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.feedbacktext {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.feedbackinputline {
+  color: grey;
+  margin-top: 50px;
+}
+
+.feedbackform {
+  width: 100%;
+  height: 120px;
+  padding-left: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-radius: 10px;
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+
+.feedbackform:focus {
+  border-color: #000;
+  box-shadow: none !important;
+}
+
+.feedbackcardcontainer {
+  position: relative;
+}
+
+.feedbacklinecontainer {
+  position: absolute;
+}
+
+.rocketimg {
+  height: 150px;
+  position: absolute;
+  left: 85%;
+  transform: rotate(5deg);
+}
+.feedbackLineDashed {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotate(6.2deg);
+}
+
+.feedbacksvg {
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.feedbackdiv {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.svgicon {
+  border: 1px #202020 solid;
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+  background-color: #e0e0e0;
+}
+
+.svgicon:hover {
+  transform: scale(1.05);
+}
+.input-button {
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  width: 100px;
+  border: 1px solid grey;
+  transition: opacity 0.3s ease;
+}
+
+.input-button:hover {
+  opacity: 0.8;
+}
+
+.ficon {
+  color: gray;
+}
+.faqcont {
+  margin-top: 70px;
+}
+
+.faq {
+  font-size: 20px;
+  font-weight: 600;
+  display: inline;
+  margin-left: 5px;
+}
+
+.faqimg {
+  width: 7px;
+  height: 30px;
+}
+
+.dropdowncontainer {
+  width: 70%;
+  margin-top: 20px;
+}
+.dropdown {
+  background-color: #e0e0e0;
+  position: relative;
+  border-radius: 10px;
+  height: 50px;
+  padding-top: 12px;
+  padding-left: 15px;
+}
+
+.drp_icon {
+  display: inline;
+  position: absolute;
+  right: 10px;
+  font-size: larger;
+}
+
+.dropdown_two {
+  margin-top: 20px;
+}
+
+.dropdown_three {
+  margin-top: 20px;
+}
+
+.dropdown_four {
+  margin-top: 20px;
+}
+
+.dropdown_five {
+  margin-top: 20px;
+}
+
+.drp_content {
+  padding-left: 15px;
+  background-color: #eeeeee;
+  margin-top: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-top: -5px;
+}
+
+.feedback-card {
+  border-radius: 0 !important;
+  width: 18rem;
+  color: white;
+  border-radius: 10px !important;
+}
+
+.feedback-title {
+  text-align: start !important;
+}
+.feedback-card-text,
+.card-subtitle {
+  color: white !important;
+}
+.card {
+  transition: none !important;
+  box-shadow: none !important;
+}
+.card:hover {
+  transition: none !important;
+}
+.card-one {
+  background-color: #ea4335;
+  margin-left: 180px;
+  margin-top: 140px;
+  transform: rotate(10deg) !important;
+}
+
+.card-two {
+  background-color: #49a84c;
+  margin-top: 70px;
+  margin-left: 180px;
+  transform: rotate(-7deg) !important;
+}
+
+.card-three {
+  background-color: #f6bc00;
+  margin-top: 60px;
+  margin-left: 20px;
+  transform: rotate(10deg) !important;
+}
+
+.rocket1img {
+  position: relative;
+  top: 100%;
+  transform: rotate(10deg);
+}
+
+@media (max-width: 768px) {
+  .feedbackcontainer {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .dropdowncontainer {
+    width: 90%;
+    margin-left: 10px;
+  }
+
+  .feedback-flex-container {
+    display: block;
+    align-items: start;
+  }
+
+  .feedbackcontainer {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .feedbackcardcontainer {
+    overflow-x: auto;
+    white-space: wrap;
+    display: flex;
+    margin-right: 10px;
+  }
+  .feedbackLineDashed {
+    display: none;
+  }
+  .card-one,
+  .card-two,
+  .card-three {
+    transform: rotate(0) !important;
+    margin: auto;
+  }
+  .feedback-card {
+    flex: 0 0 auto;
+    margin-left: 10px;
+  }
+  .dropdown {
+    text-align: start;
+  }
+
+  .drp_content {
+    text-align: left;
+  }
+  .feedbackdiv {
+    width: 100%;
+  }
+}
