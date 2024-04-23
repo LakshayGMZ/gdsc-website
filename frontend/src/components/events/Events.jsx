@@ -57,7 +57,7 @@ export default function Events() {
                     <div className="eventData">
                         <h2><b>{event.name}</b></h2>
                         <br />
-                        <h4>"Unleash the power of web3 and open source"</h4>
+                        <h4>"{event.description}"</h4>
                         <br />
                         <div className="smallDets">
                             <p className="dets"><FaMapLocationDot /> ADGIPS Auditorium</p>

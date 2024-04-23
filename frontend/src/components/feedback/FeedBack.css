@@ -128,9 +128,13 @@
   background-color: #e0e0e0;
   position: relative;
   border-radius: 10px;
-  height: 50px;
-  padding-top: 12px;
-  padding-left: 15px;
+  /* height: 50px; */
+  /* padding-top: 12px;
+  padding-left: 15px; */
+  padding: 10px;
+  display: flex;
+  align-items: center;
+
 }
 
 .drp_icon {
@@ -158,6 +162,7 @@
 
 .drp_content {
   padding-left: 15px;
+  padding-right: 15px;
   background-color: #eeeeee;
   margin-top: 0;
   border-bottom-left-radius: 10px;
