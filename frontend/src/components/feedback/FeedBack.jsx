@@ -71,7 +71,8 @@ export default function FeedBack() {
   const sendEmail = (e) => {
     e.preventDefault();
     const trimmedFeedback = feedback.trim();
-    if (!feedback || Object.keys(feedback).length || !trimmedFeedback === 0) {
+    console.log(trimmedFeedback)
+    if (!feedback || !trimmedFeedback === 0) {
       console.log("Feedback is null or empty. Email not sent.");
       return;
     }

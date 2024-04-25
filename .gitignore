@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# backend
+
+backend/gdscBackend/static
+backend/gdscBackend/migrations
+*.pyc
