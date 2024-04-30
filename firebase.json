@@ -11,6 +11,28 @@
         "source": "**",
         "destination": "/index.html"
       }
+    ],
+    "redirects": [
+      {
+        "source": "https://gdscadgips.web.app/",
+        "destination": "https://gdscadgips.xyz/",
+        "type": 301
+      },
+      {
+        "source": "https://gdscadgips.firebaseapp.com/",
+        "destination": "https://gdscadgips.xyz/",
+        "type": 301
+      },
+      {
+        "source": "https://gdscadgips.web.app/:path*",
+        "destination": "https://gdscadgips.xyz/",
+        "type": 301
+      },
+      {
+        "source": "https://gdscadgips.firebaseapp.com/:path*",
+        "destination": "https://gdscadgips.xyz/",
+        "type": 301
+      }
     ]
   }
 }
